@@ -14,6 +14,12 @@
 
 @interface MBSpacialChildViewController ()
 @property (nonatomic, weak) UIScrollView *scrollView;
+// for map
+@property (nonatomic, assign) BOOL hasLeftViewController;
+@property (nonatomic, assign) BOOL hasRightViewController;
+@property (nonatomic, assign) BOOL hasLowerViewController;
+@property (nonatomic, assign) BOOL hasUpperViewController;
+
 @end
 
 @implementation MBSpacialChildViewController
